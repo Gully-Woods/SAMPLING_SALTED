@@ -1,4 +1,4 @@
-** inp.yaml **
+# ** inp.yaml **
 
 Each dataset folder should have an inp.yaml file the contents of which should change depending on the dataset although water should remain fundamentally unchanged.
 
@@ -19,7 +19,7 @@ Each dataset folder should have an inp.yaml file the contents of which should ch
 
 
 
-** run-aims.sbatch **
+# ** run-aims.sbatch **
 
 -each folder should have this file
 
@@ -30,6 +30,6 @@ Each dataset folder should have an inp.yaml file the contents of which should ch
 
 
 
-!! WARNING !! 
+# !! WARNING !! 
 
 For the step hessian_matrix, the number of tasks set by srun -n multiplied by blocksize in inp.yaml has to equal Ntrain in inp.yaml
