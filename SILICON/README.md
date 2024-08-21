@@ -22,6 +22,6 @@
 
 -ml-setup-err will show any errors in the output
 
-#IMPORTANT
+# IMPORTANT
 
 make sure for the step hessian_matrix, the number of tasks set by srun -n multiplied by  blocksize in inp.yaml equals Ntrain in inp.yaml 
