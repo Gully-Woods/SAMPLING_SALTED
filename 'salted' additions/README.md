@@ -1,12 +1,12 @@
-#USE
+# USE
 
 These files should be added to the 'salted' folder within SALTED
 
-#cleanup.sh 
+# cleanup.sh 
 
 This file is not strictly needed but saves time when trying to remove files from your dataset folders and navigate repeatedly afterwards to the salted directory. 
 
-#seeds.txt 
+# seeds.txt 
 
 This is a very important text file that reads the specific seeds that the sbatch script should iterate other. Each script should start the next tested 'seed' with a new line as seen bellow
 
@@ -26,7 +26,7 @@ This file is only in use for the seeded.sbatch scripts
 
 
 
-#selection_functions.py
+# selection_functions.py
 
 -This file contains all the functions that should be read to sparse_selection.py
 
@@ -38,7 +38,7 @@ This file is only in use for the seeded.sbatch scripts
 
 
 
-**sparse_selection.py** 
+# **sparse_selection.py** 
 
 -In line 42 replace the do_* with the sampling function of choice
 
