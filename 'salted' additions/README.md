@@ -14,7 +14,7 @@ This file is only in use for the seeded.sbatch scripts
 
 
 
-# ** selection_functions.py **
+# selection_functions.py 
 
 -This file contains all the functions that should be read to sparse_selection.py
 
@@ -26,7 +26,7 @@ This file is only in use for the seeded.sbatch scripts
 
 
 
-# "**sparse_selection.py**" 
+# ** sparse_selection.py ** 
 
 -In line 42 replace the do_* with the sampling function of choice
 
