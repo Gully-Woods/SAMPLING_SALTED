@@ -10,7 +10,7 @@ this folder will already exist in the SALTED repository under water_monomer_AIMS
 
 -ml-setup-err will show any errors in the output
 
-** run-ml.sbatch **
+# ** run-ml.sbatch **
 
 -This script will run all the learning steps in the tutorial to produce a RMSE for the learning. This will not work if seeded parameters are wrong in selection_functions.py
 
@@ -18,9 +18,9 @@ this folder will already exist in the SALTED repository under water_monomer_AIMS
 
 -ml-setup-err will show any errors in the output
 
-#IMPORTANT
+# IMPORTANT
 
-make sure for the step hessian_matrix, the number of tasks set by srun -n multiplied by  blocksize in inp.yaml equals Ntrain in inp.yaml .
+##### make sure for the step hessian_matrix, the number of tasks set by srun -n multiplied by  blocksize in inp.yaml equals Ntrain in inp.yaml .
 
 
  
