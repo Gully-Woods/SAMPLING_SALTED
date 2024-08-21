@@ -1,4 +1,4 @@
-#KEY INFORMATION
+# KEY INFORMATION
 
 -the SALTED GitHub can be found here:  https://github.com/andreagrisafi/SALTED 
 
